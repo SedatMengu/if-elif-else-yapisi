@@ -131,3 +131,29 @@ yas = 18
 
 durum = "Oy kullanabilir" if yas >=18 else "Oy kullanamaz"
 print(durum)
+
+#-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------#
+
+isik = ["kirmizi","sari","yeşil"]
+
+yananisik = isik[0]
+
+if yananisik == "kirmizi":
+    print("Dur")
+if yananisik == "sari":
+    print("hazirlan")
+if yananisik == "yeşil":
+    print("geç")
+
+sayi1=int(input("1.sayi : "))
+sayi2=int(input("2.sayi : "))
+sayi3=int(input("3.sayi : "))
+
+if sayi1 > sayi2 and sayi1 > sayi3:
+    print("girilen sayılardan en büyüğü {} dır.".format(sayi1))
+if sayi2 > sayi1 and sayi2 > sayi3:
+    print("girilen sayılardan en büyüğü {} dır.".format(sayi1))
+if sayi3 > sayi1 and sayi3 > sayi2:
+    print("girilen sayılardan en büyüğü {} dır.".format(sayi1))
+
+
